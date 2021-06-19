@@ -1,0 +1,100 @@
+0 44 4978 5698 inadmissible
+1 42 1619 2088 inadmissible
+2 41 1738 1949 inadmissible
+3 51 580 840 inadmissible
+4 43 4139 4378 inadmissible
+5 41 591 658 inadmissible
+6 39 3038 3265 inadmissible
+7 41 1471 1771 inadmissible
+8 40 947 1122 inadmissible
+9 40 435 531 inadmissible
+10 37 10428 11672 inadmissible
+11 40 9010 10256 inadmissible
+12 37 4494 5192 inadmissible
+13 36 4863 5535
+14 38 2309 2580 inadmissible
+15 40 608 735 inadmissible
+16 39 1562 1737 inadmissible
+17 39 898 937 inadmissible
+18 41 696 796 inadmissible
+19 39 328 383 inadmissible
+20 44 526 636 inadmissible
+21 39 319 422 inadmissible
+22 37 4885 5461 inadmissible
+23 40 7111 8099 inadmissible
+24 37 4686 5064 inadmissible
+25 43 894 1119 inadmissible
+26 39 3601 3724 inadmissible
+27 36 919 980 inadmissible
+28 36 309 343 inadmissible
+29 36 7065 7331 inadmissible
+30 35 3493 3542 inadmissible
+31 36 1276 1407 inadmissible
+32 37 1594 1969 inadmissible
+33 37 1561 2014 inadmissible
+34 35 807 959 inadmissible
+35 42 737 814 inadmissible
+36 35 940 1010 inadmissible
+37 38 361 487 inadmissible
+38 35 204 239 inadmissible
+39 37 204 270 inadmissible
+40 34 4291 5304 inadmissible
+41 39 2652 2875 inadmissible
+42 34 1784 1967 inadmissible
+43 33 3423 3862
+44 34 1785 2085 inadmissible
+45 33 1278 1423
+46 33 1479 1720
+47 40 784 894 inadmissible
+48 36 1789 1861 inadmissible
+49 35 1368 1487 inadmissible
+50 39 750 927 inadmissible
+51 35 869 924 inadmissible
+52 34 805 831 inadmissible
+53 33 126 154
+54 34 8891 10158 inadmissible
+55 33 6069 6655 inadmissible
+56 32 6262 6733
+57 32 5603 6815
+58 34 7408 7708 inadmissible
+59 33 2859 3269 inadmissible
+60 36 3858 4444 inadmissible
+61 32 3414 3758
+62 34 1356 1418 inadmissible
+63 34 2620 3046 inadmissible
+64 34 1273 1422 inadmissible
+65 33 1775 1856 inadmissible
+66 32 967 1266
+67 34 539 597 inadmissible
+68 35 1279 1551 inadmissible
+69 32 781 930
+70 32 537 589
+71 32 565 635
+72 34 537 606 inadmissible
+73 37 294 360 inadmissible
+74 32 325 343
+75 33 269 321 inadmissible
+76 34 289 370 inadmissible
+77 32 70 75
+78 34 8524 9768 inadmissible
+79 33 7041 7821 inadmissible
+80 33 7509 8219 inadmissible
+81 33 7956 8991 inadmissible
+82 34 8053 8946 inadmissible
+83 31 4794 5191
+84 32 2987 3106 inadmissible
+85 32 2863 3508 inadmissible
+86 34 980 1222 inadmissible
+87 35 1568 1804 inadmissible
+88 31 3428 3630
+89 33 1220 1302 inadmissible
+90 31 1681 2345
+91 32 2607 2950 inadmissible
+92 32 1246 1441 inadmissible
+93 34 2491 2551 inadmissible
+94 34 1328 1449 inadmissible
+95 32 464 564 inadmissible
+96 32 224 303 inadmissible
+97 32 163 222 inadmissible
+98 35 225 264 inadmissible
+99 32 158 167 inadmissible
