@@ -1,29 +1,24 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import MultipleLocator
-filename = ["BFS","H2","H3","H4","Manhattan","H2+Manhattan","H3+Manhattan","H4+Manhattan","H5+Manhattan"]
+filename = ["BFS","Manhattan","H2+Manhattan","H3+Manhattan","H4+Manhattan","H5+Manhattan"]
 # text = np.loadtxt("0.txt",dtype = str)
 data = []
 # for i in text[:,0:4]:
 #     data.append((int(i[2]),int(i[3])))
 # data = sorted(data,key = lambda x:x[1], reverse = False)
 # print(data)
-index = []
-for i in range(1,101):
-    index.append(i)
 for j in filename:
     addr = j + ".txt"
     temp = []
     text = np.loadtxt(addr,dtype = str)
-    for i in text[:,0:4]:
-        temp.append((int(i[2]),int(i[3])))
+    for i in text[:,0:3]:
+        temp.append((int(i[1]),int(i[2])))
     temp = sorted(temp ,key = lambda x:x[1], reverse = False)
-    if j==0:
-        print(temp)
     data.append(temp)
 totaly = []
 
-for j in range(0,9):
+for j in range(0,6):
     y = []
     for i in range(0,100):
         pos = data[j][i]
@@ -38,11 +33,12 @@ for i in totaly:
 # ax=plt.gca()
 # y_major_locator=MultipleLocator(100)
 # ax.yaxis.set_major_locator(y_major_locator)
+print(avg)
 plt.yscale('log')
-plt.bar(filename,avg,1,color=['crimson','maroon','darkorange','burlywood','gold','tan','navajowhite','peru','orange'])
+plt.bar(filename,avg,1,color=['crimson','maroon','darkorange','burlywood','gold','tan'])
+plt.axhline(avg[0],ls = "--")
 for a,b in zip(filename,avg):  
  plt.text(a, b+0.05, '%.0f' % b, ha='center', va= 'bottom',fontsize=11)  
-plt.axhline(avg[0],ls = "--")
 plt.xlabel("Heurisitc Function")
 plt.ylabel("Number Of Expanded Nodes")
 plt.show()
