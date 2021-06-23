@@ -1,6 +1,6 @@
 # Rush Hour solver
 
-### Make sure you have installed these packages
+### Make sure you have installed these packages before running code
 
 ```
 pip install pygame
