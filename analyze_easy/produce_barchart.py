@@ -38,6 +38,16 @@ plt.bar(filename,avg,1,color=['crimson','maroon','darkorange','burlywood','gold'
 for a,b in zip(filename,avg):  
  plt.text(a, b+0.05, '%.0f' % b, ha='center', va= 'bottom',fontsize=11)  
 plt.axhline(avg[0],ls = "--")
-plt.xlabel("Heurisitc Function")
-plt.ylabel("Number Of Expanded Nodes")
+colors = {"BFS":'crimson',"Manhattan":'maroon',"H2+Manhattan":'darkorange',"H3+Manhattan":'burlywood',"H4+Manhattan":'gold',"H5+Manhattan":'tan'}
+plt.tick_params(
+    axis='x',          # changes apply to the x-axis
+    which='both',      # both major and minor ticks are affected
+    bottom=False,      # ticks along the bottom edge are off
+    top=False,         # ticks along the top edge are off
+    labelbottom=False)
+labels = list(colors.keys())
+handles = [plt.Rectangle((0,0),1,1, color=colors[label]) for label in labels]
+plt.legend(handles, labels,loc='right',fontsize = 20)
+plt.xlabel("Heurisitc Function",fontsize=25)
+plt.ylabel("Number Of Expanded Nodes",fontsize=25)
 plt.show()
