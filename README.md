@@ -14,3 +14,5 @@ pip install matplotlib
 ```
 pip install numpy
 ```
+
+[problem set](https://www.michaelfogleman.com/rush/#DatabaseDownload) we use 
